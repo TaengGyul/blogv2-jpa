@@ -16,7 +16,7 @@ public class BoardRequest {
                     .title(title)
                     .content(content)
                     .isPublic(isPublic == null ? true : false)
-                    .user(null) // user 객체 필요
+                    .user(user) // user 객체 필요
                     .build();
         }
     }

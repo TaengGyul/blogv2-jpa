@@ -29,6 +29,7 @@ public class BoardRepository {
     }
 
     public void save(Board board) {
+
         em.persist(board);
     }
 }
