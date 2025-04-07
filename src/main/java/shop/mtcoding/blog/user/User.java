@@ -32,4 +32,11 @@ public class User {
         this.email = email;
         this.createdAt = createdAt;
     }
+
+    // 이게 setter
+    // 회원 정보 수정 setter
+    public void update(String password, String email) {
+        this.password = password;
+        this.email = email;
+    }
 }
